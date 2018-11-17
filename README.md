@@ -9,14 +9,14 @@ Bash Script to allow create or delete apache/nginx virtual hosts on Ubuntu on a 
 2. Apply permission to execute:
 
 ```
-$ chmod +x /path/to/virtualhost.sh
+$ chmod +x virtualhost.sh
 ```
 
 3. Optional: if you want to use the script globally, then you need to copy the file to your /usr/local/bin directory, is better
 if you copy it without the .sh extension:
 
 ```bash
-$ sudo cp /path/to/virtualhost.sh /usr/local/bin/virtualhost
+$ sudo cp virtualhost.sh /usr/local/bin/virtualhost
 ```
 
 ### For Global Shortcut ###
